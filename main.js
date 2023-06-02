@@ -64,7 +64,7 @@ const setImg = async () => {
     image.style.width = "700px";
     image.style.height = "400px";
     image.style.objectFit = "cover";
-    image.url = res.data.url;
+    image.src = res.data.url;
     img.innerHTML += image;
   } catch (error) {
     img.innerHTML = "Error '404'";
