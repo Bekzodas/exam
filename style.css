@@ -1,0 +1,11 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+}
+.tomato {
+  background-color: #fc6c12;
+}
+.card {
+  background-color: #e4c1ab;
+}
